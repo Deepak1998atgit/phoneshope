@@ -5,9 +5,7 @@ import axios from 'axios'
 
 export default function OrderList() {
   const [order, setOrder] = useState([]);
-
-
-
+  const totalAmount = order.reduce((total, product) => total + product.Amount, 0);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -27,7 +25,9 @@ export default function OrderList() {
     <div>
       
       {order ? (
+        
         <div className="product-lists">
+          <h2 id='success-message'>Order Placed Successully</h2>
           {order.map((product, index) => (
             <div className="product-cards" key={index}>
               <img className="product-images" src={product.Image} alt={product.ProductName} />
@@ -37,6 +37,9 @@ export default function OrderList() {
               </div>
             </div>
           ))}
+          <div className="total-amount">
+          <p>Total Amount: ₹{totalAmount}</p>
+         </div>
         
         </div>
       ) : (

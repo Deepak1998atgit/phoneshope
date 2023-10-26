@@ -30,6 +30,7 @@ border-radius: 50%;
 width: 10%;
 padding-left:3%;
 color:#2a3239;
+
 }
 
 
@@ -41,7 +42,7 @@ border: none;
 padding: 8px 16px;
 cursor: pointer;
 font-size: 16px;
-margin-top: 16px;
+margin-top: 1%;
 margin-left: 10%;
 margin-right: 10%;
 }
@@ -49,13 +50,15 @@ margin-right: 10%;
 .product-amount{
 margin-left: 16%;
 color:#2a3239;
-margin-bottom: 2%;
+margin-bottom: 1%;
+
 }
 
 
 #product-name{
 margin-left: 16%;
 color: #2a3239;
+
 
 }
 

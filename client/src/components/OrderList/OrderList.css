@@ -27,3 +27,19 @@
 .product-price{
     margin-left: 10%;
 }
+
+
+.total-amount{
+    margin-left: 58%;
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    margin-right: 30%;
+}
+
+#success-message{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-top: 1%;
+}

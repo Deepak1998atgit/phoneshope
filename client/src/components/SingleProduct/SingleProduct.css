@@ -27,12 +27,13 @@
 }
   
 .product-price {
+    margin-top: 1%;
     font-size: 16px;
     color: #777;
 }
   
 .add-to-cart-button {
-    background-color: #007bff;
+    background-color: #17cf97;
     color: white;
     border: none;
     padding: 8px 16px;
