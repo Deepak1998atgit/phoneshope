@@ -1,0 +1,29 @@
+
+.product-cards{
+  
+    height: 30%;
+    display: flex;
+    margin-top: 1%;
+    border: 1px solid #ddd;
+    margin-left: 20%;
+    margin-right: 30%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+   
+}
+
+.product-images{
+    width: 70px;
+    
+}
+
+.product-title{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.product-price{
+    margin-left: 10%;
+}
