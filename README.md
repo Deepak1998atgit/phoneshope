@@ -47,12 +47,18 @@ Built with React: The front-end is developed using React, a popular and powerful
 # Navigate to the back-end directory:
 
 1.Navigate to the back-end directory:
+
+
 ```cd server```
 
 2.Install dependencies:
+
+
 ```npm install```
 
 3.Start the server:
+
+
 ```npm start```
 
 The back-end is configuared at http://localhost:3000/
