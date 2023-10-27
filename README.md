@@ -27,9 +27,13 @@ Built with React: The front-end is developed using React, a popular and powerful
 1.Navigate to the front-end directory:
 
 ```cd cliend```
+
+
 2.Install dependencies:
 
 ``` npm install```
+
+
 3.Start the development server:
 
 ``` npm run dev```
